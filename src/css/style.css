@@ -53,6 +53,38 @@ h1, h2, h3, p {
     color: #ffffff;
 }
 
+/*     ANIMACIONES / TRANSICIONES / TRANSFORMACIONES - BORRAR LUEGO    */
+
+.titulo{
+    animation-duration: 3s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
+}
+
+@keyframes aparecer{
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.menu__header__nav a{
+    height: 100%;
+    width: 100%;
+    transition: all 1s;
+}
+
+.menu__header__nav a:hover{
+    color: #000;
+}
+
 /* Body Main */
 
 .bodyDecoration{
