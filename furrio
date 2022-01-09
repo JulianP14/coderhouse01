@@ -1,0 +1,38 @@
+[33mcommit f1bada2b3034f1135ed471faf765e0e23488bb9b[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: JulianP14 <julian.parera@hotmail.com>
+Date:   Sun Jan 9 17:29:38 2022 -0300
+
+    solucionar problemas
+
+[33mcommit ce612cc26d51f9e991a95209110a39de35e61fce[m
+Merge: f855aac a640238
+Author: JulianP14 <julian.parera@hotmail.com>
+Date:   Sun Jan 9 17:24:14 2022 -0300
+
+    Merge branch 'animaciones'
+    
+    porque si
+
+[33mcommit f855aacf1e0009aaf508a169637d080823341b40[m
+Author: JulianP14 <julian.parera@hotmail.com>
+Date:   Sun Jan 9 17:23:39 2022 -0300
+
+    agregado de htmls y otros
+
+[33mcommit a640238145effcf4f8d6b85d56df289419feca85[m[33m ([m[1;32manimaciones[m[33m)[m
+Author: JulianP14 <julian.parera@hotmail.com>
+Date:   Sun Jan 9 17:17:55 2022 -0300
+
+    agregué la página animaciones para después hacer el merge en la master. De todas maneras se borrará
+
+[33mcommit d115c5d6c7fb665fa79cfb4d52c78d9b726feca0[m
+Author: JulianP14 <julian.parera@hotmail.com>
+Date:   Sun Jan 9 17:10:07 2022 -0300
+
+    Agregué animaciones y transiciones al index
+
+[33mcommit a3306b353bab74f19e04a33c6c006cce9a777a01[m
+Author: JulianP14 <julian.parera@hotmail.com>
+Date:   Sun Jan 9 16:32:10 2022 -0300
+
+    Subida de todo el conjunto de archivos del curso hasta la fecha.
