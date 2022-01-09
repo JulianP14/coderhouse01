@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../src/css/style.css">
+    <title>Desafío N°1 - Coderhouse</title>
+</head>
+<body class="bodyDecoration">
+    <div class="menu">
+        <header class="menu__header">
+            <nav class="menu__header__nav">
+                <ul class="menu__header__nav__ul">
+                    <li class="menu__header__nav__li">
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li class="menu__header__nav__li">
+                        <a class="menu__header__nav__a" href="../public/proyectos.html">Proyectos</a>
+                    </li>
+                    <li class="menu__header__nav__li">
+                        <a class="menu__header__nav__a" href="../public/clientes.html">Clientes</a>
+                    </li>
+                    <li class="menu__header__nav__li">
+                        <a class="menu__header__nav__a" href="../public/nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="menu__header__nav__li">
+                        <a class="menu__header__nav__a" href="../public/contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <header id="cabecera"></header>
+
+    <div class="contacto">
+        <div class="contacto__h2__div">
+            <h2 class="contacto__h2">¡Contactanos!</h2>
+        </div>
+            <form action="">
+                <fieldset class="contacto__h2__fieldset">
+                    <div class="contacto__h2__fieldset__label">
+                        <label for="usuario">¿Sos empresa?</label>
+                    </div>
+                    <div class="contacto__h2__fieldset__input">
+                        <input type="radio" name="usuario" id="si" value="si"><p>Sí</p>
+                        <input type="radio" name="usuario" id="si" value="no"><p>No</p>
+                    </div>
+                    <div class="contacto__h2__fieldset__select">
+                        <select name="trabajo" id="trabajo">
+                            <option value="">¿Qué tipo de trabajo necesita?</option>
+                            <option value="interiores">Hogares</option>
+                            <option value="exteriores">Profesionales</option>
+                            <option value="eventos">Eventos</option>
+                        </select>
+                    </div>
+                    <div class="contacto__h2__fieldset__label2>
+                        <label for="name">Nombre</label>
+                        <input type="text" name="name" id="name" placeholder="*Ingrese su nombre">
+                        <label for="lastname">Apellido</label>
+                        <input type="text" name="lastname" id="lastname" placeholder="*Ingrese su apellido">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="*Ingrese su email">
+                    </div>
+                    <div class="contacto__h2__fieldset__label3">
+                        <label for="consulta">¡Contanos tu Proyecto!</label>
+                        <textarea name="consulta" id="consulta" cols="100" rows="10"></textarea>
+                        <div class="contacto__h2__fieldset__label3__buttons">
+                            <input type="submit" value="Enviar">
+                            <input type="reset" value="Borrar todo">
+                        </div>
+                    </div>        
+                </fieldset>
+            </form>        
+            <footer id="pie">Entrega Final 1/3.
+                <p><a href="#cabecera">Ir hacia arriba</a></p>
+            </footer>
+    
+
+</body>
+</html>
