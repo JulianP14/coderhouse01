@@ -601,9 +601,13 @@ h1, h2, h3, p {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 #pie p{
     display: inline-block;
     justify-self: center;
     text-align: center;
+
 }
