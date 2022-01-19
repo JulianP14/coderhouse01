@@ -53,26 +53,25 @@ h1, h2, h3, p {
     color: #ffffff;
 }
 
-/*     ANIMACIONES / TRANSICIONES / TRANSFORMACIONES - BORRAR LUEGO    */
-
-.titulo{
-    animation-duration: 3s;
-    animation-name: aparecer;
-    animation-iteration-count: infinite;
+.navbar__div a{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
 }
 
-@keyframes aparecer{
-    0% {
-        opacity: 0;
-    }
+#logo{
+    width: 20rem;
+}
 
-    50% {
-        opacity: 1;
-    }
+.navbar{
+    padding: 1.5rem;
+    border-bottom: solid .1rem #000;
+}
 
-    100% {
-        opacity: 0;
-    }
+.navbar-brand {
+    transform: translateX(-50%);
+    left: 50%;
+    position: absolute;
 }
 
 .menu__header__nav a{
@@ -85,7 +84,7 @@ h1, h2, h3, p {
     color: #000;
 }
 
-/* Body Main */
+/*           BODY Main                */
 
 .bodyDecoration{
     background-color: #fff;
@@ -94,7 +93,7 @@ h1, h2, h3, p {
 .div__imagen{
     text-align: center;
     padding: .2rem;
-    margin: 0 1.5rem;
+    margin: 0.5rem 1.5rem;
     border: solid #111111 1px;
     background-color:#ffffff;
 }
@@ -210,13 +209,7 @@ h1, h2, h3, p {
 .nav__proyectos__galeria__div img{
     width: 100%;
     height: auto;
-}
-
-.carousel{
-    width: 64rem;
-    height: 36rem;
-    
-}
+}   
 
 @media screen and (min-width: 1600px){
     #proyectos__boxes{
