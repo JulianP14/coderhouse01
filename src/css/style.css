@@ -194,6 +194,9 @@ h1, h2, h3, p {
 .nav__proyectos__galeria{
     width: 100%;
     padding-right: 1rem;
+    margin: .5rem 0;
+    display: flex;
+    flex-direction: column;
 }
 
 .nav__proyectos__galeria__div{
@@ -207,6 +210,12 @@ h1, h2, h3, p {
 .nav__proyectos__galeria__div img{
     width: 100%;
     height: auto;
+}
+
+.carousel{
+    width: 64rem;
+    height: 36rem;
+    
 }
 
 @media screen and (min-width: 1600px){
@@ -596,13 +605,9 @@ h1, h2, h3, p {
 #pie{
     background-color:#145DA0;
     padding: 1rem;
-    position: static;
-    bottom: 0rem;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    position: absolute;
-    bottom: 0;
     width: 100%;
 }
 #pie p{
