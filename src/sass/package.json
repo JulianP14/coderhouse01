@@ -1,0 +1,22 @@
+{
+  "name": "repositorio2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JulianP14/coderhouse01.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JulianP14/coderhouse01/issues"
+  },
+  "homepage": "https://github.com/JulianP14/coderhouse01#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
