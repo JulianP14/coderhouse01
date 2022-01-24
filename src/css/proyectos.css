@@ -1,0 +1,57 @@
+.titulo__h2 {
+  font-size: 3rem;
+  text-decoration: underline;
+}
+
+.proceso {
+  width: 100%;
+  margin: none;
+}
+
+/* Animaciones en Proyectos */
+.titulo__h2 {
+  width: 100%;
+  height: auto;
+  -webkit-animation-name: transparency;
+          animation-name: transparency;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-animation-delay: 5s;
+          animation-delay: 5s;
+}
+
+@-webkit-keyframes transparency {
+  0% {
+    opacity: 0%;
+  }
+  50% {
+    opacity: 100%;
+  }
+  100% {
+    opacity: 0%;
+  }
+}
+
+@keyframes transparency {
+  0% {
+    opacity: 0%;
+  }
+  50% {
+    opacity: 100%;
+  }
+  100% {
+    opacity: 0%;
+  }
+}
+
+.proceso__div__p {
+  width: 100%;
+  height: auto;
+  -webkit-transform: scale();
+          transform: scale();
+}
+/*# sourceMappingURL=proyectos.css.map */

@@ -325,8 +325,6 @@ h1, h2, h3, p {
 }
 
 .proceso{
-    border: solid #111111 1px;
-    margin: 0rem 2rem;
     background-color: #ffffff;
     font-size: 1.5rem;
 }
@@ -334,7 +332,7 @@ h1, h2, h3, p {
 .proceso__div{
     border: solid #111111 1px;
     padding: 1rem;
-    margin: 2rem 0.5rem;
+    margin: 2rem 0rem;
     background-color: #ee6c4d;
 }
 

@@ -1,0 +1,45 @@
+.titulo__h2{
+    font-size: 3rem;
+    text:{
+        decoration:underline;
+    }   
+}
+
+.proceso{
+    width: 100%;
+    margin: none;
+}
+
+
+
+
+
+/* Animaciones en Proyectos */
+
+.titulo__h2{
+    width: 100%;
+    height: auto;
+    animation-name: transparency;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-duration: 4s;
+    animation-delay: 5s;
+    }
+
+@keyframes transparency{
+    0%{
+        opacity: 0%;
+    }
+    50%{
+        opacity: 100%;
+    }
+    100%{
+        opacity: 0%;
+    }
+}
+
+.proceso__div__p{
+    width: 100%;
+    height: auto;
+    transform: scale();
+}
