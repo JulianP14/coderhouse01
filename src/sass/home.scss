@@ -1,4 +1,12 @@
 /*              Body Main            */
+
+.nav__proyectos__dropdown{
+    position: relative;
+}
+.nav__proyectos__dropdown div{
+    position: absolute;
+}
+
 .titulo{
     padding: 2rem;
     margin: 2rem;
