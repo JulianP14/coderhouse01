@@ -1,0 +1,12 @@
+.grid {
+  justify-items: center;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 0;
+  grid-row-gap: 0;
+}
+
+.grid__elemento {
+  margin: 0;
+}
+/*# sourceMappingURL=clientes.css.map */
