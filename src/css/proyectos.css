@@ -8,6 +8,11 @@
   margin: none;
 }
 
+.carousel__inner__div {
+  color: #fff;
+  font-weight: bold;
+}
+
 /* Animaciones en Proyectos */
 .titulo__h2 {
   width: 100%;
@@ -46,12 +51,5 @@
   100% {
     opacity: 0%;
   }
-}
-
-.proceso__div__p {
-  width: 100%;
-  height: auto;
-  -webkit-transform: scale();
-          transform: scale();
 }
 /*# sourceMappingURL=proyectos.css.map */
