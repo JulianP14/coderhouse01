@@ -14,10 +14,10 @@
   padding: 0;
 }
 
-.grid__elemento {
+.grid__marcas {
   margin: 0;
-  width: 100%;
-  padding: 3rem;
+  width: auto;
+  padding: 2rem;
 }
 
 .particion {
@@ -206,6 +206,7 @@
   }
 }
 
+/* Resets */
 /*                  NAV BAR                */
 .navbar a:hover {
   text-decoration: underline;
