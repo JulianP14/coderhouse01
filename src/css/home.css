@@ -14,10 +14,15 @@
   padding: 0;
 }
 
-.grid__elemento {
+.grid__marcas {
   margin: 0;
+<<<<<<< HEAD
   width: 100%;
   padding: 4rem;
+=======
+  width: auto;
+  padding: 2rem;
+>>>>>>> reparandobts
 }
 
 .particion {
@@ -206,6 +211,7 @@
   }
 }
 
+/* Resets */
 /*                  NAV BAR                */
 .navbar a:hover {
   text-decoration: underline;

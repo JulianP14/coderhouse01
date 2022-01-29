@@ -8,18 +8,22 @@
 
 }
 
-.grid__elemento{
+.grid__marcas{
     margin: 0;
+<<<<<<< HEAD
     width: 100%; 
     padding: 4rem;
+=======
+    width: auto;
+    padding: 2rem;
+>>>>>>> reparandobts
 }
-
 
 .particion{
     margin-top: 5rem;
     display: grid;
     grid-template-columns: 40% 60%;
-    background-color: rgb(228, 227, 227);
+    background-color: #e4e3e3;
     div{
         width: 100%;
         height: auto;
