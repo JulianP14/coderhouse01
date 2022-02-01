@@ -1,5 +1,6 @@
 @import "variables";
 @import "condicionales";
+@import "maps";
 @import "contacto";
 @import "clientes";
 @import "proyectos";
@@ -115,7 +116,7 @@ h1, h2, h3, p {
     border-top: .1rem solid #000;
     footer{
         display: grid;
-        grid-template-columns: 70% 30%;
+        grid-template-columns: 60% 40%;
     }
         h2{
             background-color: #fff;

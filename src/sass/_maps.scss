@@ -1,0 +1,9 @@
+/* MAPS */
+
+$mapRedes:(facebook:#af2525, instagram:#149999, twitter:#016d01);
+
+@each $red, $color in $mapRedes {
+    .#{$red}--page {
+        color: $color;
+    }
+}
