@@ -5,9 +5,21 @@
     }   
 }
 
+.titulo{
+    text-align: center;
+    padding: 1rem;
+    font-size: xx-large;
+}
+
 .proceso{
     width: 100%;
     margin: none;
+    div{
+        border: solid #000 1px;
+        padding: 1rem;
+        margin: 2rem 0;
+        background-color: #fff;
+    }
 }
 
 .carousel__inner__div{

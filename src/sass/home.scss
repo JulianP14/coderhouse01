@@ -6,6 +6,25 @@
 @import "nosotros";
 
 /* Resets */
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    background-color: #e4e3e3;
+    font-size: 2rem;
+}
+h1, h2, h3, p {
+    text-align: center;
+}
+
 
 /*                  NAV BAR                */
 .navbar a:hover{
@@ -15,7 +34,31 @@
     border: .1rem solid#000;
 }
 
+.navbar{
+    padding: 1.5rem;
+    border-bottom: 1px solid #000;
+}
+
+.dropdown-item{
+    font-size: larger;
+}
+
+.navbar-brand {
+    transform: translateX(-50%);
+    left: 50%;
+    position: absolute;
+}
+
+#logo{
+    width: 20rem;
+}
+
+
 /*                 Body Main              */
+
+.bodyDecoration{
+    background-color: #e4e3e3;
+}
 
 .nav__proyectos__dropdown{
     position: relative;
@@ -66,3 +109,23 @@
 }
 
 
+/*               Footer                  */
+.footer{
+    background-color: #fff;
+    border-top: .1rem solid #000;
+    footer{
+        display: grid;
+        grid-template-columns: 70% 30%;
+    }
+        h2{
+            background-color: #fff;
+            padding: 2rem;  
+        }
+}
+#map{
+    padding: 1rem;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}

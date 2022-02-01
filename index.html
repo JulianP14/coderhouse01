@@ -11,53 +11,54 @@
     </head>
 
 <body class="bodyDecoration">
-    <nav class="navbar navbar-expand-lg navbar-light bg-white navbar">
-        <a class="navbar-brand mainlogo" href="#">
-            <img id="logo" src="./src/assets/img/indesign.png" alt="mainlogo">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse navbar__div" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active nav__items">
-                    <a class="nav-link hovereffect" href="./index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./public/clientes.html">Clientes</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./public/nosotros.html">Nosotros</a>
-                </li>
-                <li class="nav-item dropdown nav__proyectos__dropdown">
-                    <a class="nav-link dropdown-toggle" href="./public/proyectos.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Proyectos
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./public/contacto.html">Contacto</a>
-                </li>
-            </ul>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img id="logo" src="./src/assets/img/indesign.png" alt="Indesign main logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./public/clientes.html">Clientes</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Trabajos
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="./public/proyectos.html">Cómo lo hacemos</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="./public/proyectos.html">Proyectos</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./public/nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./public/conta.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
     
-
-    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="d-block w-100" src="./src/assets/img/intdesign9.jpg" alt="First slide">
+                <img src="./src/assets/img/intdesign10.jpg" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="./src/assets/img/intdesign10.jpg" alt="Second slide">
+                <img src="./src/assets/img/intdesign11.jpg" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="./src/assets/img/intdesign11.jpg" alt="Third slide">
+                <img src="./src/assets/img/intdesign9.jpg" class="d-block w-100" alt="...">
             </div>
         </div>
     </div>
@@ -71,12 +72,15 @@
         </div>
     </div>
 
-    <div>
-        <footer id="pie">
-            Footer.
-        </footer>
-    </div>
-
+        <div class="footer">
+            <footer>
+                <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d574.0190380272684!2d-71.20611285742375!3d46.81395543333944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cb895ddca0712cb%3A0x3cd7224ef24279f1!2sNotre-Dame%20de%20Quebec!5e0!3m2!1ses!2sar!4v1643554420782!5m2!1ses!2sar" width="100%" height="auto" allowfullscreen="" loading="lazy"></iframe>        
+                <div>
+                    <h2>Encontranos en nuestras redes</h2>
+                    <p>asdasd</p>
+                </div>
+            </footer>
+        </div>  
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="./jsbt/bootstrap.min.js"></script>
 </body>

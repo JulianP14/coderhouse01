@@ -14,15 +14,55 @@
   padding: 0;
 }
 
-.grid__marcas {
+.div__texto {
+  align: justify;
+  background-color: #f7f5d5;
+  overflow-x: hidden;
+}
+
+.nuestrosClientes {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+  grid-column-gap: 0;
+  background-color: #f7f5d5;
+  padding: 0 1rem 0 0;
   margin: 0;
-<<<<<<< HEAD
-  width: 100%;
-  padding: 4rem;
-=======
-  width: auto;
+}
+
+.nuestrosClientes h2 {
+  font-size: 4rem;
+  padding: .5rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.nuestrosClientes p {
+  text-align: justify;
+}
+
+.grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.grid__elemento img {
+  margin: 0;
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
   padding: 2rem;
->>>>>>> reparandobts
 }
 
 .particion {
@@ -161,9 +201,22 @@
   text-decoration: underline;
 }
 
+.titulo {
+  text-align: center;
+  padding: 1rem;
+  font-size: xx-large;
+}
+
 .proceso {
   width: 100%;
   margin: none;
+}
+
+.proceso div {
+  border: solid #000 1px;
+  padding: 1rem;
+  margin: 2rem 0;
+  background-color: #fff;
 }
 
 .carousel__inner__div {
@@ -212,6 +265,29 @@
 }
 
 /* Resets */
+* {
+  padding: 0px;
+  margin: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #e4e3e3;
+  font-size: 2rem;
+}
+
+h1, h2, h3, p {
+  text-align: center;
+}
+
 /*                  NAV BAR                */
 .navbar a:hover {
   text-decoration: underline;
@@ -221,7 +297,31 @@
   border: 0.1rem solid #000;
 }
 
+.navbar {
+  padding: 1.5rem;
+  border-bottom: 1px solid #000;
+}
+
+.dropdown-item {
+  font-size: larger;
+}
+
+.navbar-brand {
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  left: 50%;
+  position: absolute;
+}
+
+#logo {
+  width: 20rem;
+}
+
 /*                 Body Main              */
+.bodyDecoration {
+  background-color: #e4e3e3;
+}
+
 .nav__proyectos__dropdown {
   position: relative;
 }
@@ -294,5 +394,38 @@
   100% {
     width: 0%;
   }
+}
+
+/*               Footer                  */
+.footer {
+  background-color: #fff;
+  border-top: .1rem solid #000;
+}
+
+.footer footer {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 70% 30%;
+      grid-template-columns: 70% 30%;
+}
+
+.footer h2 {
+  background-color: #fff;
+  padding: 2rem;
+}
+
+#map {
+  padding: 1rem;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
 }
 /*# sourceMappingURL=home.css.map */

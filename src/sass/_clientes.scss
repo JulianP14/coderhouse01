@@ -8,15 +8,43 @@
 
 }
 
-.grid__marcas{
+.div__texto{
+    align: justify;
+    background-color: #f7f5d5;
+    overflow-x: hidden;
+}
+
+.nuestrosClientes{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 0;  
+    background-color: #f7f5d5;
+    padding: 0 1rem 0 0;
     margin: 0;
-<<<<<<< HEAD
-    width: 100%; 
-    padding: 4rem;
-=======
-    width: auto;
+    h2{
+        font-size: 4rem;
+        padding: .5rem;
+        text:{
+            transform: uppercase;
+            align: center;
+        }
+    }
+    p{
+        text-align: justify;
+    }
+}
+
+.grid{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+.grid__elemento img{
+    margin: 0;
+    max-width: fit-content;
     padding: 2rem;
->>>>>>> reparandobts
 }
 
 .particion{
