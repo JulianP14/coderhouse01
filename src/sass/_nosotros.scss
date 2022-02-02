@@ -1,0 +1,83 @@
+.linea{
+    border: .1rem solid #000;
+    margin:1rem 0;
+}
+
+.quienesSomos{
+    display: flex;
+    flex-direction: row;
+    p{
+        text-align: justify;
+        font-size: 2.4rem;
+        margin: 0 1rem 0 0;
+    }
+}
+
+.quienesSomos2{
+    background-color: rgb(97, 96, 96);
+    display: grid;
+    grid-template-columns: 50% 50%;
+    div{
+        width: 100%;
+        height: max-content;
+    }
+    img{
+        width: 100%;
+        height:auto;
+    }
+    h2{
+        font-size: 3rem;
+        padding:2rem;
+        color: #ffa031;
+    }
+    p{
+        text-align: justify;
+        margin: 0 2rem;
+        color: #fff;
+    }
+    h3{
+        color: #fff;
+        padding: .5rem;
+        font-size: 2.4rem;
+    }
+    li{
+        color: #ffa031;
+        list-style-type:disc;
+        margin-left: 2rem;
+    }
+}
+
+.linea2{
+    border: .1rem solid #000;
+    margin: 2rem 10rem;
+}
+
+#idea{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.gridNosotros{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: repeat(1, 1fr);
+    margin: 1rem 1rem;
+    border: 1px solid #000;
+    div{
+        border: 1px solid #000;
+        width: 50%;
+    }
+    iframe{
+        width: 100%;
+        height: auto;
+    }
+}
+.persona{
+    display: flex;
+    flex-direction: column;
+    p{
+
+    }
+}

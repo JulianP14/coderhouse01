@@ -1,0 +1,11 @@
+/*               MIXING            */
+@mixin parrafos {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2rem;
+    text-align: justify;    
+    color: rgb(65, 12, 70)
+}
+
+.parrafosStyle{
+    @include parrafos;
+}

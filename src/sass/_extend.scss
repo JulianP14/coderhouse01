@@ -1,0 +1,10 @@
+/* EXTEND */
+.extend1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+.extend2{
+    @extend .extend1;
+    font-size: 4rem;
+}

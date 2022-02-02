@@ -7,3 +7,14 @@ $mapRedes:(facebook:#af2525, instagram:#149999, twitter:#016d01);
         color: $color;
     }
 }
+
+/* MAP GET */
+$style:(
+    color: #f7f5d5,
+    tamFuente:3rem,
+);
+
+.mapGet{
+    background-color:map-get($style, color);
+    font-size: map-get($style, tamFuente);
+}
