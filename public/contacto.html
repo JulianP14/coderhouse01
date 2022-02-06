@@ -50,29 +50,46 @@
         
             <div class="container">    
                 <div class="contacto">
-                    <div class="contacto__h2__div">
-                        <h2 class="contacto__h2">¡Contactanos!</h2>
+                    <div class="contacto__div ">
+                        <h2>¡Contactanos!</h2>
                     </div>
                         <form>
                             <div class="form-group">
-                            <label for="exampleInputEmail1">Email address</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                <label for="exampleInputEmail1">Nombre y Apellido / Razón Social</label>
+                                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required >
                             </div>
                             <div class="form-group">
-                            <label for="exampleInputPassword1">Password</label>
-                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                                <label for="exampleInputEmail1">Número de Teléfono</label>
+                                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Con el código de área incluído." required >
                             </div>
-                            <div class="form-check">
-                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Dirección de Email</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+                                <small id="emailHelp" class="form-text text-muted">No compartiremos tus datos con nadie.</small>
                             </div>
-                            <button type="submit" class="btn btn-primary">Submit</button>
+                            <div class="mb-3">
+                                <label for="exampleFormControlTextarea1" class="form-label">Contanos tu Idea</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="15"></textarea>
+                            </div>
+                            <div class="botonContacto">
+                                <button type="submit" class="btn btn-primary">Enviar</button>
+                            </div>
                         </form>
-            </div>    
-                <footer id="pie">Entrega Final 1/3.
-                    <p><a href="#cabecera">Ir hacia arriba</a></p>
-                </footer> 
-
+                </div>  
+            </div>     
+                
+            <div class="footer">
+                <footer>
+                    <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d574.0190380272684!2d-71.20611285742375!3d46.81395543333944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cb895ddca0712cb%3A0x3cd7224ef24279f1!2sNotre-Dame%20de%20Quebec!5e0!3m2!1ses!2sar!4v1643554420782!5m2!1ses!2sar" width="100%" height="auto" allowfullscreen="" loading="lazy"></iframe>        
+                    <div>
+                        <h2>Encontranos en nuestras redes</h2>
+                        <div class="mapGet">
+                            <p><a class="facebook--page" href="#">Facebook</a></p>
+                            <p><a class="instagram--page" href="#">Instagram</a></p>
+                            <p><a class="twitter--page" href="#">Twitter</a></p>
+                        </div>      
+                    </div>
+                </footer>
+            </div>  
     </body>
 </html>

@@ -1,0 +1,50 @@
+.contacto__div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    h2{
+        background-color: #0d6efd;
+        color: #fff;
+        border: solid #111111 .1rem;
+        padding: 1rem 10rem;
+        margin: 1.5rem;
+    }
+}
+
+.form-group, .mb-3{
+    label{
+        margin: 1rem 0;
+        font:{
+            size: large;
+            weight: bold;
+        }
+        text:{
+            transform: uppercase;
+        }
+    }
+    input{
+        padding: 1rem;
+        font-size: medium;
+    }
+}
+
+.mb-3{
+    textarea{
+        padding: 1rem;
+        font-size: medium;
+    }
+}
+
+.botonContacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    button{
+        padding: 1rem 5rem;
+        margin: 2rem 0;
+        font-size: large;
+        border: .1rem solid #000;
+    }
+}
+
+

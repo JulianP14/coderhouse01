@@ -37,6 +37,64 @@
   color: #410c46;
 }
 
+.contacto__div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contacto__div h2 {
+  background-color: #0d6efd;
+  color: #fff;
+  border: solid #111111 .1rem;
+  padding: 1rem 10rem;
+  margin: 1.5rem;
+}
+
+.form-group label, .mb-3 label {
+  margin: 1rem 0;
+  font-size: large;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.form-group input, .mb-3 input {
+  padding: 1rem;
+  font-size: medium;
+}
+
+.mb-3 textarea {
+  padding: 1rem;
+  font-size: medium;
+}
+
+.botonContacto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.botonContacto button {
+  padding: 1rem 5rem;
+  margin: 2rem 0;
+  font-size: large;
+  border: .1rem solid #000;
+}
+
 .div__texto {
   background-color: #f7f5d5;
 }
