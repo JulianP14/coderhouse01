@@ -1,6 +1,8 @@
-
+.section__principal{
+    background-color: #616060;
+}
 .div__texto{
-    background-color: #f7f5d5;
+    background-color: #fff;
 }
 
 .grid__elementos img{
@@ -99,9 +101,20 @@
     }
 
     .nuestrosClientes{
-        padding: 0 1rem;
         display: flex;
         flex-direction: column;
+        h2{
+            font-size: 4rem;
+            padding: 1rem 2rem 0 2rem;
+            text:{
+                transform: uppercase;
+                align: left;
+            }
+        }
+        p{
+            text-align: justify;
+            padding: 0 2rem;
+        }
     }
 
     .grid{
@@ -131,7 +144,7 @@
         display: grid;
         grid-template-columns: 50% 50%;
         grid-column-gap: 0;  
-        background-color: #f7f5d5;
+        background-color: #fff;
         padding: 0 2rem;
         margin: 0;
         h2{

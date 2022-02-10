@@ -1,7 +1,4 @@
 @import "variables";
-@import "condicionales";
-@import "maps";
-@import "extend";
 @import "mixin";   
 @import "contacto";
 @import "clientes";
@@ -56,6 +53,30 @@ h1, h2, h3, p {
     width: 20rem;
 }
 
+/*                  H1s                   */
+
+.titulo{
+    background-color: #616060;
+    h1{
+        color: #ffa031;
+        font:{
+            size: 5rem;
+        }
+    }
+}
+
+.mainTitulo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #616060;
+    padding: 2rem;
+    h1{
+        font-size: 3rem;
+        color: #ffa031;
+    }
+}
+
 
 /*                 Body Main              */
 
@@ -63,91 +84,134 @@ h1, h2, h3, p {
     background-color: #e4e3e3;
 }
 
-.nav__proyectos__dropdown{
-    position: relative;
-}
-.nav__proyectos__dropdown div{
-    position: relative;
-    z-index: 100;
-}
-
-.titulo{
-    padding: 1rem;
-    margin: 1rem;
-    h1{
-        font-size: 5rem;
-    }
+.container{
     h2{
-        font-size: 3rem;
         margin: 2rem;
+        font-size: 3rem;
     }
 }
 
-.extend1{
+.container__div{
+    p{
+        text-align: justify;
+    }
+    img{
+        width: 100%;
+    }
+}
+
+.container__grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    grid-column-gap: rem;
+    margin: 2rem 0;
+    div{
+        display: flex;
+        justify-content: center;
+        border: .1rem solid #000;
+        padding: .5rem;
+        background-color: #616060;
+    }
+    h3{
+        font-size: 4rem;
+        color: #ffa031;
+    }
+    p{
+        padding: 0 1rem;
+        text-align: center;
+        color: #fff;
+    }
+}
+
+/*                  EXTEND                      */
+
+.container__div__extend{
     font:{
         family: Verdana, Geneva, Tahoma, sans-serif;
-        weight: bold;
+        weight: 500;
     }
-    text-align: justify;
 }
 
-.extend2{
-    @extend .extend1;
-    color: rgb(3, 88, 39);
-}
-
-/*Animación en el Body Main*/
-
-.titulo__h1{
-    width: 100%;
-    height: auto;
-    animation-name: transparencyandsize;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
-    animation-duration: 6s;
-    animation-delay: 5s;
-}
-
-@keyframes transparencyandsize{
-    0%{
-        width: 0%;
-        opacity: 0%;
-    }
-    40%{
-        width: 100%;
-    }
-    50%{
-        opacity: 100%;
-        width: 100%;
-    }
-    60%{
-        width: 100%;
-    }
-    100%{
-        width: 0%;
-    }
+.container__div__extend2{
+    @extend .container__div__extend;
+    color: #000;
+    font-size: 2.1rem;
+    font-weight: 600;
 }
 
 /*               MEDIAS QUERIES                */
+
+@media (min-width:786px){
+    .container__div__div{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .container__div__divElementos{
+        width: 100%;
+        padding: 0 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        img{
+            width: 100%;
+            height: auto;
+        }
+    }
+    .container__div__fotos{
+        display: flex;
+        flex-direction: column;
+        img{
+            width: 100%;
+        }
+    }
+}
+
+
+@media (min-width:1200px){
+    .container__div__div{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    .container__div__divElementos{
+        width: 50%;
+    }
+    .container__div__fotos{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 0 0 2rem 0;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .container__div__fotos__1{
+        padding-right: 1rem;
+    }
+    .container__div__fotos__2{
+        padding-left: 1rem;
+    }
+}
 
 
 
 /*               Footer                  */
 .footer{
-    background-color: #fff;
+    background-color: #616060;
     border-top: .1rem solid #000;
     footer{
         display: grid;
         grid-template-columns: 60% 40%;
     }
         h2{
-            background-color: #fff;
             padding: 2rem;  
         }
 }
 #map{
     padding: 1rem;
-    background-color: #fff;
     display: flex;
     flex-direction: row;
     width: 100%;
