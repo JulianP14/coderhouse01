@@ -957,7 +957,10 @@ h1, h2, h3, p {
 }
 
 .footer h2 {
-  padding: 2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #ffa031;
+  padding: 1rem;
 }
 
 #map {
@@ -971,5 +974,44 @@ h1, h2, h3, p {
           flex-direction: row;
   width: 100%;
   height: 100%;
+}
+
+.iconsMasRedes {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 5% 95%;
+      grid-template-columns: 5% 95%;
+  -ms-grid-rows: (1fr)[3];
+      grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 0;
+  margin-left: 2rem;
+}
+
+.icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #ffa031;
+  margin: .5rem;
+}
+
+.redes {
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: .5rem;
+}
+
+.redes a {
+  color: #fff;
 }
 /*# sourceMappingURL=home.css.map */
