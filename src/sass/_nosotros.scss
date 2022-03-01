@@ -70,7 +70,7 @@
 
 /*           MEDIAS QUERIES            */
 
-@media (min-width:576px){
+@media (min-width:480px){
     .quienesSomos{
         display: flex;
         flex-direction: column;
@@ -127,6 +127,7 @@
     #idea{
         margin: 2rem 0 1rem 0;
     }
+
 }
 
 @media (min-width: 786px){
